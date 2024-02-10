@@ -1,0 +1,64 @@
+/* .lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+
+
+  /* <uniquifier>: Use a uniquifier for the class name */
+  /* <weight>: Use a value from 400 to 700 */
+  
+/* .cabin-<uniquifier> {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  } */
+
+  :root{
+    --color1: rgb(55, 58, 60);
+    --color2: #dddddd;
+    --bs-dark-rgb: 55, 58, 60
+    
+    
+  }
+
+  body{
+    background-color: #fff;
+    font-family: "cabin", "sans-serif";
+  }
+
+  .btn{
+    font-size: 13px;
+  }
+
+  
+  .ff-lobster{
+    font-family: "Lobster", "sans-serif"; 
+  }
+
+  .carousel-indicators {
+    /* para que se posicionen debajo del slide y no encimma */
+    position: static; 
+  }
+
+  .list-inside{
+    list-style-position:inside;
+  }
+
+  .carousel-indicators [data-bs-target]{
+    background-color: #373a3c;
+    /* tamaño, tienen que ser iguales sino, no queda redondo */
+    width: 12px;
+    height: 12px;
+    /* para que se vuelva redondo */
+    border-radius: 50%;
+  }
+
+#hero-page,#carrusel,#receta,#recetas-relacionadas{
+    padding-left: 10%;
+    padding-right: 10%;
+}
